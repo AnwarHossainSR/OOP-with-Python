@@ -3,12 +3,14 @@ class Vehicle:
     def Vehicle_data(self):
         print("Hello from the Vehicle class!")
 
+
 # Car Child class
 
 
 class Car(Vehicle):
     def Car_data(self):
         print("Hello from the Car class!")
+
 
 # Bike Child class
 
