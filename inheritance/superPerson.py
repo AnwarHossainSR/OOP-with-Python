@@ -1,5 +1,6 @@
 # Person Parent class
 class Person:
+
     def person_data(self, name, age):
         print("Hello from the Person class!")
         print("the name is:", name, "and the age is:", age)
@@ -9,6 +10,7 @@ class Person:
 
 
 class Company:
+
     def company_data(self, comp_name, location):
         print("Welcome to the company!")
         print("The company name is:", comp_name, "and location is:", location)
@@ -18,6 +20,7 @@ class Company:
 
 
 class Employee(Person, Company):
+
     def employee_data(self, salary, skill):
         print("Welcome to the Employee class")
         print("Salary is:", salary, "Skill is:", skill)

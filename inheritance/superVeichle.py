@@ -1,5 +1,6 @@
 # Parent class
 class Vehicle:
+
     def Vehicle_data(self):
         print("Hello from the Vehicle class!")
 
@@ -8,6 +9,7 @@ class Vehicle:
 
 
 class Car(Vehicle):
+
     def Car_data(self):
         print("Hello from the Car class!")
 
@@ -16,6 +18,7 @@ class Car(Vehicle):
 
 
 class Bike(Vehicle):
+
     def Bike_data(self):
         print("Hello from bike!")
 
